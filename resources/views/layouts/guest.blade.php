@@ -44,8 +44,8 @@
                         </div>
                         <div class="col-6">
                         <div class="imgBox">
-                            {{-- <img src="img/icon7.png" alt=""> --}}
-                            <img src="{{ Storage::url('img/icon7.png') }}" alt="">
+                            <img src="img/icon7.png" alt="">
+                            {{-- <img src="{{ Storage::url('img/icon7.png') }}" alt=""> --}}
                         </div>
                         </div>
                     </div>
@@ -55,8 +55,8 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="logo d-flex justify-content-center align-items-center">
                     <div class="imgBox">
-                        {{-- <img src="img/icon.png" alt=""> --}}
-                        <img src="{{ Storage::url('img/icon.png') }}" alt="">
+                        <img src="img/icon.png" alt="">
+                        {{-- <img src="{{ Storage::url('img/icon.png') }}" alt=""> --}}
                     </div>
                     <h1 class="text-center pt-4">Crustique</h1>
                     </div>

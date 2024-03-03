@@ -59,7 +59,8 @@
             <h2 class="h1 text-center fw-bold">Today's Speciality</h2>
             <p class="smallTitle fw-bold text-center">from our menu</p>
             <div class="bread-menu d-flex justify-content-center mt-5">
-                @foreach ($specials->menus as $menu)
+                @if ($specials)
+                  @foreach ($specials->menus as $menu)
                     <div class="content">
                         <div class="imgBox">
                             <img src="{{Storage::url($menu->image)}}" class="img-fluid" alt="">
@@ -98,7 +99,8 @@
                             </div>
                         </form>
                     </div>
-                @endforeach
+                  @endforeach
+                @endif
             </div>
         </div>
       <!-- ===================== bread recipes ============= -->

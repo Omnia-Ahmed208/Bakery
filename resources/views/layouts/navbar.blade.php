@@ -6,8 +6,8 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a class="navbar-brand d-flex justify-content-center align-items-center" href="/">
-                        <img src="{{Storage::url('img/logo3.png')}}" class="img-fluid icon" alt=""> <span class="mx-4">Crustique</span>
-                        {{-- <img src="img/logo3.png" class="img-fluid icon" alt=""> <span class="mx-4">Crustique</span> --}}
+                        {{-- <img src="{{Storage::url('img/logo3.png')}}" class="img-fluid icon" alt=""> <span class="mx-4">Crustique</span> --}}
+                        <img src="img/logo3.png" class="img-fluid icon" alt=""> <span class="mx-4">Crustique</span>
                     </a>
                 </div>
             </div>
